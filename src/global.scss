@@ -1,0 +1,23 @@
+@import "./mixins";
+
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+   --primary1: #00f700;
+   --primary2: #00f700a8;
+   --seconday1: #aae602;
+   --seconday2: #a9e602af;
+}
+
+.container {
+   width: 100vw;
+   height: 100vh;
+   @include transparent2();
+   @include d-flex-c-c();
+}
