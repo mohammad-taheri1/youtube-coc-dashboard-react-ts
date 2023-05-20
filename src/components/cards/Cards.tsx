@@ -17,7 +17,6 @@ import pekka from "../../assets/images/pekka.png";
 import star from "../../assets/images/star.png";
 import valkryne from "../../assets/images/valkryne.png";
 import witch from "../../assets/images/witch.png";
-import wizard from "../../assets/images/wizard.png";
 
 const troops = [
    { id: 1, score: 5, title: "Archer", src: archer },
@@ -37,7 +36,6 @@ const troops = [
    { id: 15, score: 5, title: "Pekka", src: pekka },
    { id: 16, score: 2, title: "Valkryne", src: valkryne },
    { id: 17, score: 5, title: "Witch", src: witch },
-   { id: 18, score: 4, title: "Wizard", src: wizard },
 ];
 
 const Cards = () => {
